@@ -10,7 +10,7 @@ namespace APBD3.src
     {
         public bool IsHazardous { get; private set; }
 
-        public LiquidContainer(double height, double tareWeight, double depth, double maxPayload, bool isHazardous)
+        public LiquidContainer(double height, double tareWeight, double depth, double maxPayload, bool isHazardous = false)
             : base("L", height, tareWeight, depth, maxPayload)
         {
             IsHazardous = isHazardous;

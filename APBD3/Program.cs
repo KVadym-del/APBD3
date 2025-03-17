@@ -9,7 +9,7 @@ class Program
             var ship1 = new ContainerShip(25.0, 5, 500000.0); // 25 knots, 5 containers, 500000.0 tons (for test cases)
             var ship2 = new ContainerShip(20.0, 3, 30.0);
 
-            var liquidMilk = new LiquidContainer(243, 1200, 243, 26000, false); // Ordinary cargo (milk)
+            var liquidMilk = new LiquidContainer(243, 1200, 243, 26000); // Ordinary cargo (milk)
             var liquidFuel = new LiquidContainer(243, 1200, 243, 26000, true);  // Hazardous cargo (fuel)
             var gasHelium = new GasContainer(243, 1200, 243, 26000, 2.0);      // Helium at 2 atm
             var refrigeratedBananas = new RefrigeratedContainer(243, 1200, 243, 26000, ProductType.Bananas, 15.0);
