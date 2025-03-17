@@ -13,7 +13,7 @@ namespace APBD3.src
         Fish,
         Meat,
         IceCream,
-        Milk // Added for completeness, though typically in liquid containers
+        Milk
     }
 
     public class RefrigeratedContainer : Container
